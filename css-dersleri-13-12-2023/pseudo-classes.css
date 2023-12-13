@@ -1,0 +1,74 @@
+
+
+a{
+    border: 3px solid gray;
+    padding: 5px 8px;
+    text-decoration: none;
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    font-size: 24px;
+    color: gray;
+}
+
+/* Link
+
+Daha önce ziyaret edilmemiş bir link için yazılan css kodlarıdır */
+
+a:link{
+  border: 3px solid red;
+  color: red;
+}
+
+/* Visited
+
+Daha önce ziyaret edilmiş bir link için yazılan css kodlarıdır */
+
+a:visited{
+    border: 3px solid green;
+    color: green;
+}
+
+/* Hover Özelliği
+
+Hover özelliğini verdiğim linkin/p etiketinin veya herhangi bir etiketin mouse ile üzerine geldiğimde gerçekleşen
+css kodlarıdır. */
+
+.link1:hover{
+    border: 3px dashed coral;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+/* Active Özelliği
+
+Active özelliğini verdiğim linke sol tıkla basılı tuttuğum zaman gerçekleşen css kodlarıdır. */
+
+a:active{
+    border: 3px solid green;
+    background-color: blueviolet;
+    color: coral;
+    font-weight: bold;
+    font-size: 46px;
+    width: 150px;
+}
+
+/* div:hover{
+    border: 3px dashed coral;
+    background-color: cornflowerblue;
+    color: white;
+} */
+
+div{
+    padding: 40px;
+}
+
+
+div:hover p{
+   display: block; 
+   background-color: blueviolet; 
+}
+
+p{
+    display: none;
+}

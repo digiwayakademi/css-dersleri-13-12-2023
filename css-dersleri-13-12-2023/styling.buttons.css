@@ -1,0 +1,21 @@
+
+
+a{
+    background-color: coral;
+    color: #fff;
+    border: 2px solid #000;
+    padding: 4px 16px;
+    text-decoration: none;
+    font-size: 32px;
+    border-radius: 8px;
+}
+
+a:hover{
+    background-color: #000;
+    color: coral;
+    border: 2px solid violet;
+}
+
+a:active{
+    background-color: greenyellow; 
+}
